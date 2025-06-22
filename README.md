@@ -44,7 +44,7 @@ https://sepolia.etherscan.io/address/0xF6f50A0d486312be8062F3Bf9F0Ca834e3045fcD#
 
 - npx hardhat compile
 
-2) configure your network in WHITELIST_TOKEN/.ENV
+2) configure your network in WHITELIST-TOKEN-main/.ENV
 
 Create a file called .ENV
 
