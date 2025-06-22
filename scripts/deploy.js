@@ -6,10 +6,10 @@ async function main() {
 
   const TokenFactory = await ethers.getContractFactory("WhitelistToken");
 
-  // 🛠️ Pass deployer.address to the constructor if needed
+  // Pass deployer.address to the constructor
   const token = await TokenFactory.deploy(deployer.address); 
 
-  await token.waitForDeployment(); // ✅ For ethers v6+
+  await token.waitForDeployment(); 
   
   console.log("WhitelistToken deployed to:", await token.getAddress());
 }
@@ -18,3 +18,4 @@ main().catch((error) => {
   console.error(error);
   process.exitCode = 1;
 });
+
