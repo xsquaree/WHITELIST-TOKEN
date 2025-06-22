@@ -46,7 +46,7 @@ https://sepolia.etherscan.io/address/0xF6f50A0d486312be8062F3Bf9F0Ca834e3045fcD#
 
 2) configure your network in WHITELIST-TOKEN-main/.ENV
 
-Create a file called .ENV
+- Create a file called .ENV
 
 - Example of the content inside: 
 
